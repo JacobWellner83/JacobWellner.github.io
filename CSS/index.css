@@ -123,16 +123,26 @@ button {
   opacity: 0;
 }
 .imageHoverOne .hoverTwo {
+  position: relative;
   width: 48%;
 }
 .imageHoverOne .hoverTwo img {
   width: 100%;
   height: auto;
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 @media (max-width: 1024px) {
   .imageHoverOne .hoverTwo {
     width: 95%;
   }
+}
+.imageHoverOne .hoverTwo img.top:hover {
+  opacity: 0;
 }
 .imageHoverTwo {
   display: flex;
