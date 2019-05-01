@@ -1,4 +1,4 @@
-$(function () {
+/*$(function () {
     $('.item img').each(function () {
         $(this).data('original', this.src);
     }).mouseenter(function () {
@@ -13,3 +13,4 @@ $(function () {
         });
     });
 });
+*/
