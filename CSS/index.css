@@ -91,6 +91,7 @@ button {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  position: relative;
   width: 96%;
   margin-bottom: 1%;
 }
@@ -148,6 +149,7 @@ button {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  position: relative;
   width: 96%;
   margin-bottom: 1%;
 }
