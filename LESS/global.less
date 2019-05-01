@@ -79,6 +79,12 @@ button {
     font-size: 16pt;
   }
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .imageHoverOne {
   display: flex;
   justify-content: space-around;
@@ -91,14 +97,9 @@ button {
   }
   .hoverOne {
     width: 48%;
-    background-image: url("Images/Text1.jpg");
-    visibility: visible;
     img {
       width: 100%;
       height: auto;
-    }
-    img:hover {
-      visibility: hidden;
     }
     @media(max-width: 1024px) {
       width: 95%;
