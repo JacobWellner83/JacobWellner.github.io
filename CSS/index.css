@@ -101,8 +101,8 @@ button {
   }
 }
 .imageHoverOne .hoverOne {
-  width: 48%;
   position: relative;
+  width: 48%;
 }
 .imageHoverOne .hoverOne img {
   width: 100%;
