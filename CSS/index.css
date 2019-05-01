@@ -81,17 +81,10 @@ button {
   text-align: center;
   font-size: 16pt;
 }
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .imageHoverOne {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  position: absolute;
   width: 96%;
   margin-bottom: 1%;
 }
@@ -102,54 +95,33 @@ button {
   }
 }
 .imageHoverOne .hoverOne {
-  position: relative;
   width: 48%;
 }
 .imageHoverOne .hoverOne img {
   width: 100%;
   height: auto;
-  position: absolute;
-  left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
 }
 @media (max-width: 1024px) {
   .imageHoverOne .hoverOne {
     width: 95%;
   }
 }
-.imageHoverOne .hoverOne img.top:hover {
-  opacity: 0;
-}
 .imageHoverOne .hoverTwo {
-  position: relative;
   width: 48%;
 }
 .imageHoverOne .hoverTwo img {
   width: 100%;
   height: auto;
-  position: absolute;
-  left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
 }
 @media (max-width: 1024px) {
   .imageHoverOne .hoverTwo {
     width: 95%;
   }
 }
-.imageHoverOne .hoverTwo img.top:hover {
-  opacity: 0;
-}
 .imageHoverTwo {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  position: absolute;
   width: 96%;
   margin-bottom: 1%;
 }
@@ -160,54 +132,33 @@ button {
   }
 }
 .imageHoverTwo .hoverThree {
-  position: relative;
   width: 48%;
 }
 .imageHoverTwo .hoverThree img {
   width: 100%;
   height: auto;
-  position: absolute;
-  left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
 }
 @media (max-width: 1024px) {
   .imageHoverTwo .hoverThree {
     width: 95%;
   }
 }
-.imageHoverTwo .hoverThree img.top:hover {
-  opacity: 0;
-}
 .imageHoverTwo .hoverFour {
-  position: relative;
   width: 48%;
 }
 .imageHoverTwo .hoverFour img {
   width: 100%;
   height: auto;
-  position: absolute;
-  left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
 }
 @media (max-width: 1024px) {
   .imageHoverTwo .hoverFour {
     width: 95%;
   }
 }
-.imageHoverTwo .hoverFour img.top:hover {
-  opacity: 0;
-}
 .imageHoverThree {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  position: absolute;
   width: 96%;
   margin-bottom: 1%;
 }
@@ -218,48 +169,28 @@ button {
   }
 }
 .imageHoverThree .hoverFive {
-  position: relative;
   width: 48%;
 }
 .imageHoverThree .hoverFive img {
   width: 100%;
   height: auto;
-  position: absolute;
-  left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
 }
 @media (max-width: 1024px) {
   .imageHoverThree .hoverFive {
     width: 95%;
   }
 }
-.imageHoverThree .hoverFive img.top:hover {
-  opacity: 0;
-}
 .imageHoverThree .hoverSix {
-  position: relative;
   width: 48%;
 }
 .imageHoverThree .hoverSix img {
   width: 100%;
   height: auto;
-  position: absolute;
-  left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
 }
 @media (max-width: 1024px) {
   .imageHoverThree .hoverSix {
     width: 95%;
   }
-}
-.imageHoverThree .hoverSix img.top:hover {
-  opacity: 0;
 }
 .carousel {
   width: 100%;
