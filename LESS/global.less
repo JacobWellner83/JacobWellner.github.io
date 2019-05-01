@@ -97,14 +97,24 @@ button {
   }
   .hoverOne {
     width: 48%;
+    position: relative;
     img {
       width: 100%;
       height: auto;
+      position: absolute;
+      left:0;
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
     }
     @media(max-width: 1024px) {
       width: 95%;
     }
-  } 
+  }
+  .hoverOne img.top:hover {
+    opacity: 0;
+  }
   .hoverTwo {
     width: 48%;
     img {
