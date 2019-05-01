@@ -97,6 +97,7 @@ button {
 .imageHoverOne .hoverOne {
   width: 48%;
   background-image: url("Images/Text1.jpg");
+  visibility: visible;
 }
 .imageHoverOne .hoverOne img {
   width: 100%;
