@@ -96,24 +96,15 @@ button {
 }
 .imageHoverOne .hoverOne {
   width: 48%;
-  position: relative;
 }
 .imageHoverOne .hoverOne img {
   width: 100%;
   height: auto;
-  position: absolute;
-  transition: opacity 1s ease 0s;
 }
 @media (max-width: 1024px) {
   .imageHoverOne .hoverOne {
     width: 95%;
   }
-}
-.imageHoverOne .top {
-  opacity: 0;
-}
-.imageHoverOne .hoverOne:hover img.img2 {
-  opacity: 1;
 }
 .imageHoverOne .hoverTwo {
   width: 48%;
@@ -348,6 +339,27 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 15px;
+  height: 200px;
+  margin: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-top: solid #fa9fc9 2px;
+}
+footer h3 {
+  display: flex;
+  font-size: 18pt;
+}
+.address {
+  font-size: 10pt;
+  line-height: 1;
 }
 .width-100 {
   width: 100%;
