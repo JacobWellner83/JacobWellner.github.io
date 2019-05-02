@@ -91,13 +91,22 @@ button {
   }
   .hoverOne {
     width: 48%;
+    position: relative;
     img {
       width: 100%;
       height: auto;
+      position: absolute;
+      transition: opacity 1s ease 0s;
     }
     @media(max-width: 1024px) {
       width: 95%;
     }
+  }
+  .top {
+    opacity: 0;
+  }
+  .hoverOne:hover img.img2 {
+    opacity: 1;
   }
   .hoverTwo {
     width: 48%;

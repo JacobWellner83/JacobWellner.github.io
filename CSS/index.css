@@ -96,15 +96,24 @@ button {
 }
 .imageHoverOne .hoverOne {
   width: 48%;
+  position: relative;
 }
 .imageHoverOne .hoverOne img {
   width: 100%;
   height: auto;
+  position: absolute;
+  transition: opacity 1s ease 0s;
 }
 @media (max-width: 1024px) {
   .imageHoverOne .hoverOne {
     width: 95%;
   }
+}
+.imageHoverOne .top {
+  opacity: 0;
+}
+.imageHoverOne .hoverOne:hover img.img2 {
+  opacity: 1;
 }
 .imageHoverOne .hoverTwo {
   width: 48%;
